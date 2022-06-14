@@ -1,16 +1,71 @@
 :root {
- --dark-gray: #141414;
- --green: #528c4d;
- --yellow: #b59e3b;
- --gray: #3a393b;
- --white: #ffffff;
+    --dark-gray: #141414;
+    --green: #528c4d;
+    --yellow: #b59e3b;
+    --gray: #3a393b;
+    --white: #ffffff;
 }
 
 html{
- background-color: var(--dark-gray);
+    background-color: var(--dark-gray);
 }
 
 body {
- font-family: 'Source Code Pro', monospace; 
- color: var(--white);
+    font-family: 'Source Code Pro', monospace; 
+    color: var(--white);
+    padding: 1vh 2vw;
 }
+
+#scoredle-paste {
+    width: 80vw;
+}
+
+#title {
+    position: relative;
+    display: inline-block;
+}
+
+#title::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    /* Remove display: inline-block if not required to be on the same line as text etc */
+    display: inline-block;
+    background-color: var(--green);
+    vertical-align: bottom;
+    width: 15px;
+    /* Set height to the line height of .text */
+    height: 30px;
+    /* 
+    Animation paramaters:
+    blink = animation-name, 
+    1s = animation-duration, 
+    step-end = animation-timing-function,
+    infinite = animation-iteration-count
+    */
+    -webkit-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+#view-stats {
+    font-family: inherit;
+    color: var(--white);
+    background-color: var(--gray);
+    margin: 3vh 0;
+    font-size: larger;
+}
+
+

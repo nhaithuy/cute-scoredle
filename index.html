@@ -1,16 +1,28 @@
-
-    <!doctype html>
-    <html>
-      <head>
-        <title>cute scoredle</title>
-        <meta name="description" content="cute scoredle">
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-          <link rel="stylesheet" href="styles.css">
-        </head>
-      <body>
-        <h1>cute scoredle</h1>
-        <p>keep track of our wordle stats</p>
-      </body>
-    </html>
+<!doctype html>
+  <html>
+    <head>
+      <title>cute scoredle</title>
+      <meta name="description" content="cute scoredle">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="styles.css">
+        <!-- Chart.js -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      </head>
+    <body>
+      <h1 id="title">> cute scoredle</h1>
+      <p>keep track of our wordle stats</p>
+      <!-- <h2>> who are you?</h2>
+      <input type="text" id="name">
+      <h2>> paste your scoredle here</h2>
+      <input type="text" id="scoredle-paste"><br>
+      <button id="view-stats">view stats</button> -->
+      <div>
+        <canvas id="chart"></canvas>
+      </div>
+    </body>
+    <script type="text/javascript" src="data/skyler.js"></script>
+    <script type="text/javascript" src="data/thuy.js"></script>
+    <script src="script.js"></script>
+  </html>
