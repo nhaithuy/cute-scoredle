@@ -28,7 +28,7 @@ body {
 #title::after {
     content: "";
     position: absolute;
-    top: 4px;
+    top: 7px;
     right: -25px;
     /* Remove display: inline-block if not required to be on the same line as text etc */
     display: inline-block;
