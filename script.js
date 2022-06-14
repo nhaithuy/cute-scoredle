@@ -67,6 +67,7 @@ const chart = new Chart(ctx, {
                     lineWidth: 0.5,
                     borderDash: [2],
                 },
+                reverse: true,
             },
             x: {
                 ticks: {
