@@ -1,3 +1,16 @@
+:root {
+ --dark-gray: #141414;
+ --green: #528c4d;
+ --yellow: #b59e3b;
+ --gray: #3a393b;
+ --white: #ffffff;
+}
+
+html{
+ background-color: var(--dark-gray);
+}
+
 body {
  font-family: 'Source Code Pro', monospace; 
+ color: var(--white);
 }
