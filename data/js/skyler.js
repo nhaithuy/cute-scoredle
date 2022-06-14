@@ -1,1 +1,1 @@
-skylersData = '{"357": {"score": 5, "hard-mode": true, "guesses": ["suite", "lapse", "horse", "boose", "goose"]}, "358": {"score": 3,"hard-mode": true,"guesses": ["suite", "total", "float"]}}'
+skylersData = '[{"357": {"hard_mode": "true", "score": 5, "guesses": ["suite", "lapse", "horse", "boose", "goose"]}}, {"358": {"hard_mode": "true", "score": 3, "guesses": ["suite", "total", "float"]}}]'

@@ -1,1 +1,1 @@
-thuysData = '{"359": {"score": 5,"hard-mode": true,"guesses": ["space", "trout", "moron", "donor", "honor"]},"360": {"score": 2,"hard-mode": true,"guesses": ["space", "atone"]}}'
+thuysData = '[{"357": {"hard_mode": "true", "score": 5, "guesses": ["space", "morse", "house", "loose", "goose"]}}, {"358": {"hard_mode": "true", "score": 4, "guesses": ["space", "baton", "aloft", "float"]}}, {"359": {"hard_mode": "true", "score": 5, "guesses": ["space", "trout", "moron", "honor", "donor"]}}]'

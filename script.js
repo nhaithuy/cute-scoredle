@@ -3,9 +3,10 @@ function parseData(datafile) {
 
     var labels = []
     var scoreDataPoints = []
-    for (const [key, value] of Object.entries(data)) {
-        labels.push(key)
-        scoreDataPoints.push(value["score"])
+
+    for (var i = 0; i < data.length; i++) {
+        labels.push(Object.keys(data[i])[0])
+        scoreDataPoints.push(Object.values(data[i])[0]["score"])
     }
 
     const result = {

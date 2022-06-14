@@ -1,17 +1,28 @@
-def read_file(file_name: str) -> None:
+def read_file(txt_file_name: str, js_file_name: str, js_obj_name: str) -> None:
     """
-    Read the text file containing our pasted scoredle data
+    Read the text file containing our pasted scoredle data.
+    Currently this script overwrites the JS files everytime
     """
-    infile = open(file_name, "r")
+    infile = open(txt_file_name, "r")
+    outfile = open(js_file_name, "w")
     
     eof = True
+    scoredles = []
     while eof:
         scoredle = get_wordle_data(infile)
+        scoredles.append(scoredle)
+
         # this should read the empty line between each scoredle
         # or if it is end of file, terminate
         eof = infile.readline()
-        
+    
+    scoredles_str_inner = str(scoredles).replace("'", "\"")
+    scoredles_str = js_obj_name + " = '" + str(scoredles_str_inner) + "'"
+    outfile.writelines(scoredles_str)
+
     infile.close()
+    outfile.close()
+
 
 def get_wordle_data(infile) -> dict:
     """
@@ -51,8 +62,8 @@ def get_wordle_data(infile) -> dict:
     return scoredle
 
 def main():
-    read_file("data/txt/skyler.txt")
-    read_file("data/txt/thuy.txt")
+    read_file("data/txt/skyler.txt", "data/js/skyler.js", "skylersData")
+    read_file("data/txt/thuy.txt", "data/js/thuy.js", "thuysData")
 
 if __name__ == "__main__":
     main()
