@@ -40,7 +40,9 @@ def get_wordle_data(infile) -> dict:
     # parse the score from the first scoredle line
     SCORE_IDX = 2
     score_str = metadata_line[SCORE_IDX][0]
-    score = 0 if score_str == "X" else int(score_str)
+    
+    # if it's a miss
+    score = 7 if score_str == "X" else int(score_str)
 
     # hard mode?
     scoredle[wordle_id]["hard_mode"] = "true" if metadata_line[SCORE_IDX][-1] == "*" else "false"
