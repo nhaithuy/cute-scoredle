@@ -2,7 +2,7 @@
 I'm bored let's make something cute.
 
 ## Instructions on updating the text file with scoredle data
-1. Go to `data/txt/YOUR_NAME.txt.`
+1. Go to `data/txt/YOUR_NAME.txt`.
 2. Paste the Discord scoredle at the end of the file. 
    * Note that there must be **exactly** 1 blank line between each scoredle.
    * There must not be any empty line at the end of the file (see sample file below).
@@ -12,7 +12,7 @@ I'm bored let's make something cute.
 $ python AddData.py
 ```
 
-### Sample file
+### Sample `.txt` file
 This file below is a valid file.
 ```
 Scoredle 357 5/6*
