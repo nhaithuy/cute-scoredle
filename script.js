@@ -1,12 +1,21 @@
 function parseData(datafile) {
-    var data = JSON.parse(datafile)
+    let data = JSON.parse(datafile)
 
-    var labels = []
-    var scoreDataPoints = []
+    let labels = []
+    let scoreDataPoints = []
 
-    for (var i = 0; i < data.length; i++) {
-        labels.push(Object.keys(data[i])[0])
-        scoreDataPoints.push(Object.values(data[i])[0]["score"])
+    let i = 0
+    while (i < data.length) {
+        let label = Object.keys(data[i])[0]
+        // did the user miss a day?
+        if (i > 0 && parseInt(label) != parseInt(labels[labels.length - 1]) + 1) {
+            labels.push((parseInt(labels[labels.length - 1]) + 1).toString())
+            scoreDataPoints.push(null)
+        } else {
+            labels.push(Object.keys(data[i])[0])
+            scoreDataPoints.push(Object.values(data[i])[0]["score"])
+            i += 1
+        }
     }
 
     const result = {

@@ -2,7 +2,7 @@
 I'm bored let's make something cute.
 
 ## TODOS
-- [ ] Handle mismatching datapoints (_e.g._ if one of the players miss a day, this script will display incorrect stats).
+- [X] Handle mismatching datapoints (_e.g._ if one of the players miss a day, this script will display incorrect stats).
 - [ ] Better handle a miss (currently it's represented as a score of 7).
 
 ## Instructions on updating the text file with scoredle data
@@ -66,6 +66,7 @@ Scoredle 357 5/6*
 ⬛🟩⬛🟩🟩 ||HOUSE|| (13)
 ⬛🟩🟩🟩🟩 ||LOOSE|| (4)
 🟩🟩🟩🟩🟩 ||GOOSE||
+
 Scoredle 358 4/6*
 
 12,974

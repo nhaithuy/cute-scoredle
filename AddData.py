@@ -6,15 +6,15 @@ def read_file(txt_file_name: str, js_file_name: str, js_obj_name: str) -> None:
     infile = open(txt_file_name, "r")
     outfile = open(js_file_name, "w")
     
-    eof = True
+    not_eof = True
     scoredles = []
-    while eof:
+    while not_eof:
         scoredle = get_wordle_data(infile)
         scoredles.append(scoredle)
 
         # this should read the empty line between each scoredle
         # or if it is end of file, terminate
-        eof = infile.readline()
+        not_eof = infile.readline()
     
     scoredles_str_inner = str(scoredles).replace("'", "\"")
     scoredles_str = js_obj_name + " = '" + str(scoredles_str_inner) + "'"

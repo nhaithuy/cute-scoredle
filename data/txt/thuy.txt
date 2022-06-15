@@ -23,3 +23,16 @@ Scoredle 359 5/6*
 ⬜🟩🟨🟩🟨 MORON (2)
 ⬜🟩🟩🟩🟩 HONOR (1)
 🟩🟩🟩🟩🟩 DONOR
+
+Scoredle 360 2/6*
+
+12,974
+⬛⬛🟨⬛🟩 SPACE (210)
+🟩🟩🟩🟩🟩 ATONE
+
+Scoredle 361 3/6*
+
+12,974
+⬛🟨⬛⬛⬛ SPACE (248)
+🟩🟨⬛🟨⬛ PILOT (7)
+🟩🟩🟩🟩🟩 PRIMO
