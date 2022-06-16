@@ -4,6 +4,7 @@ I'm bored let's make something cute.
 ## TODOS
 - [X] Handle mismatching datapoints (_e.g._ if one of the players miss a day, this script will display incorrect stats).
 - [ ] Better handle a miss (currently it's represented as a score of 7).
+- [ ] Display the answer for the day.
 
 ## Instructions on updating the text file with scoredle data
 1. Go to `data/txt/YOUR_NAME.txt`.

@@ -167,3 +167,9 @@ Scoredle 361 3/6*
 ⬛🟨⬛⬛⬛ SPACE (248)
 🟩🟨⬛🟨⬛ PILOT (7)
 🟩🟩🟩🟩🟩 PRIMO
+
+Scoredle 362 2/6*
+
+12,974
+⬛🟩🟨⬛⬛ SPACE (18)
+🟩🟩🟩🟩🟩 APRON

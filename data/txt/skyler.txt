@@ -153,3 +153,20 @@ Scoredle 360 3/6*
 ⬜⬜⬜🟨🟩 SUITE (66)
 🟨⬜🟩⬜🟩 TROPE (2)
 🟩🟩🟩🟩🟩 ATONE
+
+Scoredle 361 6/6*
+
+12,974
+⬜⬜🟩⬜⬜ SUITE (196)
+⬜🟩🟩⬜⬜ DRILL (30)
+⬜🟩🟩⬜⬜ BRICK (16)
+⬜🟩🟩⬜⬜ WRING (10)
+🟩🟩🟩🟩⬜ PRIMY (4)
+🟩🟩🟩🟩🟩 PRIMO
+
+Scoredle 362 3/6*
+
+12,974
+⬜⬜⬜⬜⬜ SUITE (1,207)
+🟨🟨⬜🟨🟨 POLAR (2)
+🟩🟩🟩🟩🟩 APRON
