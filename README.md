@@ -6,10 +6,11 @@ Thuy:
 - [X] Handle mismatching datapoints (_e.g._ if one of the players miss a day, this script will display incorrect stats).
 - [ ] Better handle a miss (currently it's represented as a score of 7).
 - [ ] Display the answer for the day.
+- [X] Add profile summary cards breaking down wins, ties, losses, average rows, favorite letters, luckiest play (or final guess?), guesses by rows, longest win streak, ... (dummy data).
 
 Skyler:
 - [X] Add an image grid describing streaks/ties over-time in an easy to understand way
-- [ ] Add profile summary cards breaking down wins, ties, losses, average rows, favorite letters, luckiest play (or final guess?), guesses by rows, longest win streak, ...
+- [ ] Fill out profile summary cards with actual data.
 - [ ] Create a discord bot to easily update the data file as opposed to us needing to run a script manually (or just create a script to combine both things idk a bot would be cute)
 
 ## Instructions on updating the text file with scoredle data
