@@ -170,3 +170,42 @@ Scoredle 362 3/6*
 ⬜⬜⬜⬜⬜ SUITE (1,207)
 🟨🟨⬜🟨🟨 POLAR (2)
 🟩🟩🟩🟩🟩 APRON
+
+Scoredle 363 5/6*
+
+12,974
+⬜⬜⬜⬜⬜ SUITE (1,207)
+⬜🟨🟨⬜⬜ POLAR (29)
+⬜🟩🟩🟩🟩 CLOWN (2)
+⬜🟩🟩🟩🟩 FLOWN (1)
+🟩🟩🟩🟩🟩 BLOWN
+
+Scoredle 364 4/6*
+
+12,974
+⬜⬜⬜⬜⬜ SUITE (1,207)
+⬜🟨⬜🟩⬜ POLAR (3)
+🟨🟨🟩🟩⬜ OCCAM (1)
+🟩🟩🟩🟩🟩 CACAO
+
+Scoredle 365 3/6*
+
+12,974
+🟨⬜⬜⬜🟨 SUITE (853)
+⬜🟩🟩🟩🟩 POSER (4)
+🟩🟩🟩🟩🟩 LOSER
+
+Scoredle 366 3/6*
+
+12,974
+⬜🟨🟨🟨⬜ SUITE (13)
+⬜⬜🟨🟨🟩 FRUIT (2)
+🟩🟩🟩🟩🟩 INPUT
+
+Scoredle 367 4/6*
+
+12,974
+⬜⬜⬜🟨⬜ SUITE (278)
+⬜🟨⬜🟨🟩 TAROT (12)
+⬜🟩🟩🟩🟩 FLOAT (3)
+🟩🟩🟩🟩🟩 GLOAT

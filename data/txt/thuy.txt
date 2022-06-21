@@ -173,3 +173,43 @@ Scoredle 362 2/6*
 12,974
 ⬛🟩🟨⬛⬛ SPACE (18)
 🟩🟩🟩🟩🟩 APRON
+
+Scoredle 363 4/6*
+
+12,974
+⬛⬛⬛⬛⬛ SPACE (1,041)
+⬛⬛🟩⬛⬛ TROUT (68)
+⬛⬛🟩⬛⬛ MOODY (8)
+🟩🟩🟩🟩🟩 BLOWN
+
+Scoredle 364 4/6*
+
+12,974
+⬛⬛🟨🟨⬛ SPACE (178)
+🟩🟩⬛⬛🟩 CARGO (2)
+🟩🟩⬛⬛🟩 CANTO (1)
+🟩🟩🟩🟩🟩 CACAO
+
+Scoredle 365 4/6*
+
+12,974
+🟨⬛⬛⬛🟨 SPACE (892)
+⬛🟨🟨🟨⬛ FLESH (127)
+⬛🟩🟨🟩🟨 MOLES (4)
+🟩🟩🟩🟩🟩 LOSER
+
+Scoredle 366 4/6*
+
+12,974
+⬛🟨⬛⬛⬛ SPACE (248)
+🟨🟨⬛⬛🟩 PILOT (4)
+⬛⬛🟨🟨🟩 GRIPT (1)
+🟩🟩🟩🟩🟩 INPUT
+
+Scoredle 367 4/6*
+
+12,974
+⬛⬛🟨⬛⬛ SPACE (1,142)
+⬛🟨⬛🟨🟩 TAROT (10)
+⬛🟩🟩🟩🟩 BLOAT (2)
+🟩🟩🟩🟩🟩 GLOAT
