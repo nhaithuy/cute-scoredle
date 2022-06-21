@@ -13,9 +13,8 @@ function handleStreak(summary, status) {
             summary.currW = 1
         }
         // Is it the longest streak?
-        if (summary.currW > summary.longestW) {
-            summary.longestW = summary.currW
-        }
+        summary.longestW = summary.currW > summary.longestW 
+            ? summary.currW : summary.longestW
     } else if (status == "l") {
         // Lost
         if (summary.prev == "l") {
@@ -26,9 +25,8 @@ function handleStreak(summary, status) {
             summary.currL = 1
         }
         // Is it the longest streak?
-        if (summary.currL > summary.longestL) {
-            summary.longestL = summary.currL
-        }
+        summary.longestL = summary.currL > summary.longestL 
+            ? summary.currL : summary.longestL
     } else {
         // Tie
         if (summary.prev != "t") {
