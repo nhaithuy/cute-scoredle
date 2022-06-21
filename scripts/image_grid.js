@@ -1,5 +1,6 @@
 // react moment
-const GRID_SIZE = 7;
+const PFP_SIZE = 100
+const GRID_SIZE = Math.floor(window.innerWidth * (98/100)  / PFP_SIZE) // 7;
 
 function makeImageGrid() {
     // Assuming we start on the same date
@@ -15,7 +16,7 @@ function makeImageGrid() {
             let image_str = "tie";
             if (skyler_score != thuy_score) {
                 if (skyler_score == null || skyler_score > thuy_score) {
-                    image_str = "twee";
+                    image_str = "twee"; // WHY AM I TWEE T.T
                 } else {
                     image_str = "skyler";
                 }
@@ -29,8 +30,8 @@ function makeImageGrid() {
             image.setAttribute("src", `./data/images/${image_str}.png`);
             image_div.appendChild(image);
             image_div.appendChild(hover_text);
-            image.width = "100";
-            image.height = "100";
+            image.width = PFP_SIZE.toString();
+            image.height = PFP_SIZE.toString();
             rowDiv.appendChild(image_div);
         }
         bigDiv.appendChild(rowDiv);
