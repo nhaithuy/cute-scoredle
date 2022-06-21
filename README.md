@@ -7,7 +7,7 @@ I'm bored let's make something cute.
 - [ ] Display the answer for the day.
 
 Skyler:
-- [ ] Add an image grid describing streaks/ties over-time in an easy to understand way
+- [X] Add an image grid describing streaks/ties over-time in an easy to understand way
 - [ ] Add profile summary cards breaking down wins, ties, losses, average rows, favorite letters, luckiest play (or final guess?), guesses by rows, longest win streak, ...
 - [ ] Create a discord bot to easily update the data file as opposed to us needing to run a script manually (or just create a script to combine both things idk a bot would be cute)
 
