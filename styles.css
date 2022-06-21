@@ -115,6 +115,11 @@ body {
     margin: 5px 0;
 }
 
+.pfp {
+    display: flex;
+    align-items: center;
+}
+
 .pfp img {
     border-radius: 50%;
     height: 200px;
@@ -137,4 +142,52 @@ body {
     flex: 1;
     justify-content: flex-end;
 }
+
+/* Media queries for Profiles Overview section */
+@media only screen and (max-width: 946px) {
+    .profile-data {
+        width: 27vw;
+    }
+    .profile-data h2 {
+        margin: 10px 0;
+        font-size: large;
+    }
+    .pfp img {
+        height: 120px;
+    }
+    .row {
+        margin: 4px 0;
+        font-size: x-small;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #profiles-overview {
+        flex-direction: column;
+    }
+    .pfp img {
+        height: 150px;
+    }
+    .profile-data {
+        width: 50vw;
+    }
+    .row {
+        margin: 5px 0;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .pfp img {
+        height: 120px;
+    }
+    .profile-data {
+        width: 50vw;
+    }
+    .row {
+        margin: 4px 0;
+        font-size: x-small;
+    }
+}
+
 
