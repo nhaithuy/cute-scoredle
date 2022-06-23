@@ -6,8 +6,10 @@ Thuy:
 - [X] Handle mismatching datapoints (_e.g._ if one of the players miss a day, this script will display incorrect stats).
 - [ ] Better handle a miss (currently it's represented as a score of 7).
 - [ ] Display the answer for the day.
-- [X] Add profile summary cards breaking down wins, ties, losses, average rows, favorite letters, luckiest play (or final guess?), guesses by rows, longest win streak, ... (dummy data).
-- [X] Fill out profile summary cards with actual data.
+- [X] [dummy data] Add profile summary cards breaking down wins, ties, losses, average rows, favorite letters, luckiest play (or final guess?), guesses by rows, longest win streak, . . .
+- [X] [actual data] Fill out profile summary cards with actual data.
+- [X] [dummy data] Add top 5 letters display.
+- [ ] Fill out top 5 letters display with actual data.
 
 Skyler:
 - [X] Add an image grid describing streaks/ties over-time in an easy to understand way
