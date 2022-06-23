@@ -102,9 +102,28 @@ body {
     justify-content: space-between;
 }
 
+.profile-overview {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-overview h5 {
+    margin: 0;
+}
+
 .profile {
     display: flex;
     margin: 30px 0;
+}
+
+.profile h2 {
+    width: fit-content;
+}
+
+.profile h2:hover {
+    background-color: var(--yellow);
+    color: var(--dark-gray);
+    cursor: pointer;
 }
 
 .profile-data {

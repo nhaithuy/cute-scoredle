@@ -95,3 +95,83 @@ function calculateSummaryData() {
 }
 
 calculateSummaryData()
+
+function drawPersonalStats(dataList, chartId) {
+    const ctx = document.getElementById(chartId).getContext('2d');
+    const chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['T', 'S', 'R', 'A', 'E'],
+            datasets: [{
+                label: 'Top 5 Letters',
+                data: dataList,
+                backgroundColor: [
+                    'rgba(82, 140, 77, 1)',
+                    'rgba(82, 140, 77, 1)',
+                    'rgba(181, 158, 59, 1)',
+                    'rgba(181, 158, 59, 1)',
+                    'rgba(181, 158, 59, 1)',
+                    
+                ],
+                borderColor: [
+                    'rgba(82, 140, 77, 1)',
+                    'rgba(82, 140, 77, 1)',
+                    'rgba(181, 158, 59, 1)',
+                    'rgba(181, 158, 59, 1)',
+                    'rgba(181, 158, 59, 1)',
+                    
+                ],
+                borderWidth: 1,
+            }], 
+        },
+        options: {
+            plugins: {
+                legend: {
+                    display: false,
+                },
+            },
+            barThickness: 15,
+            indexAxis: 'y',
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: [
+                            'rgba(255, 255, 255, 1)',
+                        ],
+                        font: {
+                            family: "'Source Code Pro', monospace",
+                        },
+                    },
+                    grid: {
+                        color: [
+                            'rgba(255, 255, 255, 0.5)',
+                        ],
+                        lineWidth: 0.5,
+                        borderDash: [2],
+                    },
+                },
+                x: {
+                    ticks: {
+                        color: [
+                            'rgba(255, 255, 255, 1)',
+                        ],
+                        font: {
+                            family: "'Source Code Pro', monospace",
+                        },
+                    },
+                    grid: {
+                        color: [
+                            'rgba(255, 255, 255, 0.5)',
+                        ],
+                        lineWidth: 0.5,
+                        borderDash: [2],
+                    },
+                },
+            }
+        }
+    });
+}
+
+drawPersonalStats([22, 19, 5, 3, 2], "skyler-stats")
+drawPersonalStats([22, 19, 5, 3, 2], "thuy-stats")

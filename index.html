@@ -15,58 +15,66 @@
       <h1 id="title">> cute scoredle</h1>
       <p>keep track of our wordle stats</p>
       <div id="profiles-overview">
-        <div class="profile">
-          <div class="pfp"><img src="data/images/skyler.png"></div>
-          <div class="profile-data">
-            <h2>Skyler</h2>
-            <div class="row">
-              <div class="col col-1">W/L/T</div>
-              <div class="col col-2" id="skyler-wlt"></div>
-            </div>
-            <div class="row">
-              <div class="col col-1">Average</div>
-              <div class="col col-2" id="skyler-avg"></div>
-            </div>
-            <div class="row">
-              <div class="col col-1">Longest win streak</div>
-              <div class="col col-2" id="skyler-longest-w"></div>
-            </div>
-            <div class="row">
-              <div class="col col-1">Longest loss streak</div>
-              <div class="col col-2" id="skyler-longest-l"></div>
-            </div>
-            <!-- TODO: what is current streak? -->
-            <div class="row">
-              <div class="col col-1">Current streak</div>
-              <div class="col col-2">4</div>
+        <div class="profile-overview">
+          <div class="profile">
+            <div class="pfp"><img src="data/images/skyler.png"></div>
+            <div class="profile-data">
+              <h2>Skyler</h2>
+              <div class="row">
+                <div class="col col-1">W/L/T</div>
+                <div class="col col-2" id="skyler-wlt"></div>
+              </div>
+              <div class="row">
+                <div class="col col-1">Average</div>
+                <div class="col col-2" id="skyler-avg"></div>
+              </div>
+              <div class="row">
+                <div class="col col-1">Longest win streak</div>
+                <div class="col col-2" id="skyler-longest-w"></div>
+              </div>
+              <div class="row">
+                <div class="col col-1">Longest loss streak</div>
+                <div class="col col-2" id="skyler-longest-l"></div>
+              </div>
+              <!-- TODO: what is current streak? -->
+              <div class="row">
+                <div class="col col-1">Current streak</div>
+                <div class="col col-2">4</div>
+              </div>
             </div>
           </div>
+          <h5>Top 5 Letters</h5>
+          <canvas id="skyler-stats"></canvas>
         </div>
-        <div class="profile">
-          <div class="pfp"><img src="data/images/twee.png"></div>
-          <div class="profile-data">
-            <h2>Thuy</h2>
-            <div class="row">
-              <div class="col col-1">W/L/T</div>
-              <div class="col col-2" id="thuy-wlt"></div>
-            </div>
-            <div class="row">
-              <div class="col col-1">Average</div>
-              <div class="col col-2" id="thuy-avg"></div>
-            </div>
-            <div class="row">
-              <div class="col col-1">Longest win streak</div>
-              <div class="col col-2" id="thuy-longest-w"></div>
-            </div>
-            <div class="row">
-              <div class="col col-1">Longest loss streak</div>
-              <div class="col col-2" id="thuy-longest-l"></div>
-            </div>
-            <div class="row">
-              <div class="col col-1">Current streak</div>
-              <div class="col col-2">4</div>
+        <div class="profile-overview">
+          <div class="profile">
+            <div class="pfp"><img src="data/images/twee.png"></div>
+            <div class="profile-data">
+              <h2>Thuy</h2>
+              <div class="row">
+                <div class="col col-1">W/L/T</div>
+                <div class="col col-2" id="thuy-wlt"></div>
+              </div>
+              <div class="row">
+                <div class="col col-1">Average</div>
+                <div class="col col-2" id="thuy-avg"></div>
+              </div>
+              <div class="row">
+                <div class="col col-1">Longest win streak</div>
+                <div class="col col-2" id="thuy-longest-w"></div>
+              </div>
+              <div class="row">
+                <div class="col col-1">Longest loss streak</div>
+                <div class="col col-2" id="thuy-longest-l"></div>
+              </div>
+              <div class="row">
+                <div class="col col-1">Current streak</div>
+                <div class="col col-2">4</div>
+              </div>
             </div>
           </div>
+          <h5>Top 5 Letters</h5>
+          <canvas id="thuy-stats"></canvas>
         </div>
       </div>
       <div>
